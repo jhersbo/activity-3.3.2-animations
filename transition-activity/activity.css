@@ -1,1 +1,21 @@
+/* This just handles the button transition. */
+
+button{
+    background-color: ghostwhite;
+}
+
+button:hover{
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    
+}
+
+button:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    background-color: ghostwhite;
+    color: black;
+}
 
